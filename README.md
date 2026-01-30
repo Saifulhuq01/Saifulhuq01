@@ -1,25 +1,48 @@
 # Mohammed Saifulhuq
 ### Software Engineer | Java Spring Boot & Angular
 
-> *Obsessed with internal mechanics, clean architecture, and high-performance systems.*
+> *I engineer scalable, production-grade systems with a focus on internal mechanics and clean architecture.*
 
-I am a Full-Stack Software Engineer who refuses to write "tutorial code." I build production-grade, fault-tolerant systems using **Enterprise Patterns** and **Scalable Architecture**.
+I am a Full-Stack Software Engineer specializing in the Java ecosystem and Modern Frontend frameworks. My work focuses on building fault-tolerant applications and optimizing performance for enterprise-level systems.
 
 Currently, I am:
-* 🚀 **Building Scalable Frontends** at **Muthu Soft Labs** (Angular 13+ / RxJS).
-* 🛡️ **Contributing to Open Source** at **Apache Fineract** (Focus: Security & Query Optimization).
-* 🛠️ **Deepening System Mastery** in Java Concurrency and Distributed Systems.
+* 🚀 **Building Scalable Full-Stack Systems** at **MSL**.
+    * *Stack:* Java Spring Boot (Backend) & Angular 13+ / RxJS (Frontend).
+* 🛡️ **Contributing to Open Source** at **Apache Fineract** & **Mifos Initiative**.
+    * *Projects:* Fineract Core (Security/Query Optimization) & OpenWeb App.
+* 🛠️ **Deepening System Mastery** in Distributed Systems & Concurrency.
 
 ---
 
-### 🛠️ Engineering Stack
+### 🛠️ Core Engineering Stack
 
-| Domain | Technologies |
-| :--- | :--- |
-| **Backend Engineering** | **Java (Streams, Multithreading)**, **Spring Boot**, REST APIs |
-| **Frontend Architecture** | **Angular 13+**, **RxJS (State Management)**, TypeScript, Tailwind CSS |
-| **Infrastructure** | PostgreSQL, Docker, Arch Linux, CI/CD |
-| **Tooling** | IntelliJ IDEA, Neovim/Zed, Git |
+<div align="center">
+  <img height="50" width="50" src="https://img.icons8.com/?size=100&id=j9DnICNnlhGk&format=png&color=000000" alt="Java"/>
+  <img height="50" width="50" src="https://img.icons8.com/color/48/000000/spring-logo.png" alt="Spring Boot"/>
+  <img width="48" height="48" src="https://img.icons8.com/color/48/kotlin.png" alt="Kotlin"/>
+  <img width="48" height="48" src="https://img.icons8.com/color/48/postgreesql.png" alt="PostgreSQL"/>
+  <img height="50" width="50" src="https://img.icons8.com/color/48/000000/mongodb.png" alt="MongoDB"/>
+  <img height="50" width="50" src="https://img.icons8.com/color/48/000000/nodejs.png" alt="NodeJS"/>
+  <br/>
+  
+  <img height="50" width="50" src="https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000" alt="TypeScript"/>
+  <img height="50" width="50" src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript"/>
+  <img height="50" width="50" src="https://img.icons8.com/?size=100&id=GPfHz0SM85FX&format=png&color=000000" alt="Angular"/>
+  <img height="50" width="50" src="https://img.icons8.com/?size=100&id=NfbyHexzVEDk&format=png&color=000000" alt="React"/>
+  <img height="50" width="50" src="https://img.icons8.com/color/48/000000/google-firebase-console.png" alt="Firebase"/>
+  <img height="50" width="50" src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="Bootstrap"/>
+</div>
+
+### ⚙️ IDE & Tools
+
+<div align="center">
+  <img width="48" height="48" src="https://img.icons8.com/color/48/intellij-idea.png" alt="IntelliJ"/>
+  <img height="50" width="50" src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png" alt="VS Code"/>
+  <img width="48" height="48" src="https://zed.dev/_next/static/media/stable-app-logo.9b5f959f.png" alt="Zed"/>
+  <img height="50" width="50" src="https://img.icons8.com/color/50/000000/git.png" alt="Git"/>
+  <img width="48" height="48" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png" alt="Netlify"/>
+  <img height="50" width="50" src="https://img.icons8.com/?size=100&id=zC9SDvhmTlTo&format=png&color=000000" alt="Postman"/>
+</div>
 
 ---
 
