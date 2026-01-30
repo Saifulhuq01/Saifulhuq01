@@ -49,8 +49,13 @@ Currently, I am:
 ### 📊 Engineering Metrics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Saifulhuq01&show_icons=true&theme=transparent&hide_border=true&title_color=0077b5&text_color=999&icon_color=0077b5" height="150" alt="stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Saifulhuq01&layout=compact&theme=transparent&hide_border=true&title_color=0077b5&text_color=999" height="150" alt="languages" />
+  <a href="https://github.com/Saifulhuq01">
+    <img src="https://github-readme-stats.vercel.app/api?username=Saifulhuq01&show_icons=true&theme=dark&hide_border=true&count_private=true" height="150" alt="stats" />
+  </a>
+  
+  <a href="https://github.com/Saifulhuq01">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Saifulhuq01&layout=compact&theme=dark&hide_border=true" height="150" alt="languages" />
+  </a>
 </div>
 
 <div align="center">
