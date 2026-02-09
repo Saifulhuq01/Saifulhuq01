@@ -1,15 +1,15 @@
 # Hi, I'm Mohammed Saifulhuq (Sai) 🚀
 
-### Full Stack Engineer | Angular (RxJS) & Java (Spring Boot) | Open Source Contributor
+### Software Developer | Angular (RxJS) & Java (Spring Boot) | Open Source Contributor
 
-I don't just write code; I engineer failure-proof, scalable distributed systems. Currently building production-grade architecture at **Muthu Soft Labs** and hardening open-source banking software at **Apache Fineract**.
+I am a Full Stack Developer obsessed with **Clean Code** and **System Mechanics**. Currently building enterprise applications at **MSL** and actively contributing to the **Apache Fineract** ecosystem to sharpen my skills in security and performance.
 
 ---
 
-### 🛡️ Engineering Philosophy
-* **Performance First:** If it leaks memory, it’s not done. (Ask me about `AsyncPipe` vs `.subscribe()`).
-* **Security is a Requirement:** Actively patching SQL Injection vulnerabilities in enterprise financial software.
-* **Deep Internals:** I run **Arch Linux** because I need to know exactly what my OS and JVM are doing.
+### 🛡️ Core Principles
+* **Quality over Speed:** I don't just ship features; I write maintainable, leak-free code. (Ask me about `AsyncPipe` vs `.subscribe()`).
+* **Security Mindset:** Actively identifying and patching vulnerabilities (like SQL Injection) in open-source financial software.
+* **Under the Hood:** I run **Arch Linux** because I believe understanding the OS is key to understanding the application.
 
 ---
 
@@ -24,15 +24,16 @@ I don't just write code; I engineer failure-proof, scalable distributed systems.
 
 ---
 
-### 🌍 Open Source Engineering Impact
+### 🌍 Open Source Contributions
 
-I actively engineer the financial infrastructure for **Apache Fineract** and **Mifos X**, focusing on hardening the core banking layer used by fintechs globally.
+I believe the best way to learn architecture is to work on established codebases. My contributions to **Apache Fineract** and **Mifos X** include:
 
-* **🛡️ Security Architecture:** Systematically auditing and refactoring legacy service layers to eliminate **SQL Injection** risks (OWASP Top 10) using Prepared Statements and static analysis.
-* **⚡ High-Performance Frontend:** Modernizing legacy **Angular** architectures in the Mifos X web client, implementing **RxJS** best practices to reduce memory leaks and improve render cycles.
-* **🏗️ Technical Debt Reduction:** enforcing "Clean Code" standards and modernizing build pipelines to ensure long-term maintainability of the ecosystem.
+* **🛡️ Security Patches:** Identified and fixed **SQL Injection** risks in legacy service layers using Prepared Statements.
+* **⚡ Frontend Optimization:** Modernizing **Angular** components in Mifos X to use **RxJS** best practices for better memory management.
+* **🏗️ Code Quality:** Participating in code reviews and refactoring technical debt to align with strict coding standards.
 
-> [**View My Live Contribution Log (All Merged PRs) ➔**](https://github.com/apache/fineract/pulls?q=is%3Apr+author%3ASaifulhuq01)
+> [**View My Merged PRs ➔**](https://github.com/apache/fineract/pulls?q=is%3Apr+author%3ASaifulhuq01)
+
 ---
 
 ### 📊 GitHub Stats
