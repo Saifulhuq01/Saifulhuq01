@@ -1,76 +1,50 @@
-# Mohammed Saifulhuq
-### Software Engineer | Java Spring Boot & Angular
+# Hi, I'm Mohammed Saifulhuq (Sai) 🚀
 
-> *I engineer scalable, production-grade systems with a focus on internal mechanics and clean architecture.*
+### Full Stack Engineer | Angular (RxJS) & Java (Spring Boot) | Open Source Contributor
 
-I am a Full-Stack Software Engineer specializing in the Java ecosystem and Modern Frontend frameworks. My work focuses on building fault-tolerant applications and optimizing performance for enterprise-level systems.
-
-Currently, I am:
-* 🚀 **Building Scalable Full-Stack Systems** at **MSL**.
-    * *Stack:* Java Spring Boot (Backend) & Angular 13+ / RxJS (Frontend).
-* 🛡️ **Contributing to Open Source** at **Apache Fineract** & **Mifos Initiative**.
-    * *Projects:* Fineract Core (Security/Query Optimization) & OpenWeb App.
-* 🛠️ **Deepening System Mastery** in Distributed Systems & Concurrency.
+I don't just write code; I engineer failure-proof, scalable distributed systems. Currently building production-grade architecture at **Muthu Soft Labs** and hardening open-source banking software at **Apache Fineract**.
 
 ---
 
-### 🛠️ Core Engineering Stack
-
-<div align="center">
-  <img height="50" width="50" src="https://img.icons8.com/?size=100&id=j9DnICNnlhGk&format=png&color=000000" alt="Java"/>
-  <img height="50" width="50" src="https://img.icons8.com/color/48/000000/spring-logo.png" alt="Spring Boot"/>
-  <img width="48" height="48" src="https://img.icons8.com/color/48/kotlin.png" alt="Kotlin"/>
-  <img width="48" height="48" src="https://img.icons8.com/color/48/postgreesql.png" alt="PostgreSQL"/>
-  <img height="50" width="50" src="https://img.icons8.com/color/48/000000/mongodb.png" alt="MongoDB"/>
-  <img height="50" width="50" src="https://img.icons8.com/color/48/000000/nodejs.png" alt="NodeJS"/>
-  <br/>
-  
-  <img height="50" width="50" src="https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000" alt="TypeScript"/>
-  <img height="50" width="50" src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript"/>
-  <img height="50" width="50" src="https://img.icons8.com/?size=100&id=GPfHz0SM85FX&format=png&color=000000" alt="Angular"/>
-  <img height="50" width="50" src="https://img.icons8.com/?size=100&id=NfbyHexzVEDk&format=png&color=000000" alt="React"/>
-  <img height="50" width="50" src="https://img.icons8.com/color/48/000000/google-firebase-console.png" alt="Firebase"/>
-  <img height="50" width="50" src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="Bootstrap"/>
-</div>
-
-### ⚙️ IDE & Tools
-
-<div align="center">
-  <img width="48" height="48" src="https://img.icons8.com/color/48/intellij-idea.png" alt="IntelliJ"/>
-  <img height="50" width="50" src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png" alt="VS Code"/>
-  <img width="48" height="48" src="https://zed.dev/_next/static/media/stable-app-logo.9b5f959f.png" alt="Zed"/>
-  <img height="50" width="50" src="https://img.icons8.com/color/50/000000/git.png" alt="Git"/>
-  <img width="48" height="48" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png" alt="Netlify"/>
-  <img height="50" width="50" src="https://img.icons8.com/?size=100&id=zC9SDvhmTlTo&format=png&color=000000" alt="Postman"/>
-</div>
+### 🛡️ Engineering Philosophy
+* **Performance First:** If it leaks memory, it’s not done. (Ask me about `AsyncPipe` vs `.subscribe()`).
+* **Security is a Requirement:** Actively patching SQL Injection vulnerabilities in enterprise financial software.
+* **Deep Internals:** I run **Arch Linux** because I need to know exactly what my OS and JVM are doing.
 
 ---
 
-### 📊 Engineering Metrics
+### 🛠️ The Arsenal (Tech Stack)
+
+| Domain | Technologies |
+| :--- | :--- |
+| **Backend** | ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot) ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white) |
+| **Frontend** | ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![RxJS](https://img.shields.io/badge/RxJS-B7178C?style=for-the-badge&logo=reactivex&logoColor=white) |
+| **Database** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white) |
+| **Tooling** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white) ![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white) |
+
+---
+
+### 🌍 Open Source Engineering Impact
+
+I actively engineer the financial infrastructure for **Apache Fineract** and **Mifos X**, focusing on hardening the core banking layer used by fintechs globally.
+
+* **🛡️ Security Architecture:** Systematically auditing and refactoring legacy service layers to eliminate **SQL Injection** risks (OWASP Top 10) using Prepared Statements and static analysis.
+* **⚡ High-Performance Frontend:** Modernizing legacy **Angular** architectures in the Mifos X web client, implementing **RxJS** best practices to reduce memory leaks and improve render cycles.
+* **🏗️ Technical Debt Reduction:** enforcing "Clean Code" standards and modernizing build pipelines to ensure long-term maintainability of the ecosystem.
+
+> [**View My Live Contribution Log (All Merged PRs) ➔**](https://github.com/apache/fineract/pulls?q=is%3Apr+author%3ASaifulhuq01)
+---
+
+### 📊 GitHub Stats
 
 <div align="center">
-  <a href="https://github.com/Saifulhuq01">
-    <img src="https://github-readme-stats.vercel.app/api?username=Saifulhuq01&show_icons=true&theme=dark&hide_border=true&count_private=true" height="150" alt="stats" />
-  </a>
-  
-  <a href="https://github.com/Saifulhuq01">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Saifulhuq01&layout=compact&theme=dark&hide_border=true" height="150" alt="languages" />
-  </a>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Saifulhuq01&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true" width="100%" alt="activity graph" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Saifulhuq01&show_icons=true&theme=radical&hide_border=true" height="150" alt="stats graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Saifulhuq01&layout=compact&theme=radical&hide_border=true" height="150" alt="languages graph" />
 </div>
 
 ---
 
-### 📬 Connect
-
-<div align="left">
-  <a href="https://www.linkedin.com/in/saifulhuqs/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://saifulhuq-dev.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-View_Code-black?style=for-the-badge&logo=vercel&logoColor=white" />
-  </a>
-</div>
+### 🤝 Connect
+* **Portfolio:** [saifulhuq-dev.vercel.app](https://saifulhuq-dev.vercel.app/)
+* **LinkedIn:** [linkedin.com/in/saifulhuqs](https://www.linkedin.com/in/saifulhuqs)
+* **Mail:** mohammed.saifulhuq@gmail.com
