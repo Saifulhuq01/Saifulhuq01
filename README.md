@@ -1,4 +1,4 @@
-# Hi, I'm Mohammed Saifulhuq 🚀
+# Hi, I'm Mohammed Saifulhuq
 
 ### Software Developer | Angular (RxJS) & Java (Spring Boot) | Open Source Contributor
 
