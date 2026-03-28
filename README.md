@@ -46,6 +46,6 @@ I believe the best way to learn architecture is to work on established codebases
 ---
 
 ### 🤝 Connect
-* **Portfolio:** [saifulhuq-dev.vercel.app](https://saifulhuq-dev.vercel.app/)
+* **Portfolio:** [saifulhuq.vercel.app](https://saifulhuq.vercel.app/)
 * **LinkedIn:** [linkedin.com/in/saifulhuqs](https://www.linkedin.com/in/saifulhuqs)
 * **Mail:** mohammed.saifulhuq@gmail.com
