@@ -144,8 +144,16 @@ def dashboard(t, data):
   <text x="{x + 22}" y="{y + 32}" font-family="{MONO}" font-size="12.5" letter-spacing="1.4" fill="{t['muted']}">{esc(title)}</text>
   <text x="{x + w - 22}" y="{y + 32}" text-anchor="end" font-family="{MONO}" font-size="12.5" fill="{t['accent']}">{esc(right)}</text>''')
 
+    def grow(attr, final, begin, dur, start="0"):
+        # Starts at load and holds `start` until `begin`. The element's own
+        # attribute is the final value, so renderers that skip SMIL (or
+        # load the image late) still show the finished chart.
+        total = begin + dur
+        return (f'<animate attributeName="{attr}" values="{start};{start};{final}" '
+                f'keyTimes="0;{begin / total:.3f};1" dur="{total:.2f}s" fill="freeze"/>')
+
     def fade(begin, dur=0.5):
-        return f'<animate attributeName="opacity" from="0" to="1" begin="{begin:.2f}s" dur="{dur}s" fill="freeze"/>'
+        return grow("opacity", "1", begin, dur)
 
     # Header: status line in the style of a service health check
     out.append(f'''
@@ -177,7 +185,7 @@ def dashboard(t, data):
             if dt.month != last_month and col < cols - 1:
                 out.append(f'<text x="{gx + col * step}" y="{gy - 10}" font-family="{MONO}" font-size="11" fill="{t["faint"]}">{dt:%b}</text>')
                 last_month = dt.month
-        out.append(f'<rect x="{gx + col * step}" y="{gy + row * step}" width="{cell}" height="{cell}" rx="3.5" fill="{t["heat"][d["level"]]}" opacity="0">'
+        out.append(f'<rect x="{gx + col * step}" y="{gy + row * step}" width="{cell}" height="{cell}" rx="3.5" fill="{t["heat"][d["level"]]}">'
                    f'<title>{d["count"]} on {fmt_day(d["date"])}</title>{fade(0.15 + col * 0.022, 0.35)}</rect>')
 
     active = sum(1 for d in days if d["count"])
@@ -187,7 +195,7 @@ def dashboard(t, data):
     ty = py + ph - 74
     for i, (v, label) in enumerate(tiles):
         tx = px + 22 + i * (tw + 14)
-        out.append(f'''<g opacity="0">{fade(1.3 + i * 0.1)}
+        out.append(f'''<g>{fade(1.3 + i * 0.1)}
     <rect x="{tx:.0f}" y="{ty}" width="{tw:.0f}" height="56" rx="8" fill="{t['bg']}" stroke="{t['line']}"/>
     <text x="{tx + 16:.0f}" y="{ty + 35}" font-family="{SANS}" font-size="22" font-weight="700" fill="{t['fg']}">{esc(v)}</text>
     <text x="{tx + tw - 16:.0f}" y="{ty + 34}" text-anchor="end" font-family="{MONO}" font-size="12" fill="{t['muted']}">{esc(label)}</text>
@@ -210,9 +218,10 @@ def dashboard(t, data):
     for i, (_, n, color) in enumerate(segs):
         seg = circ * n / max(lc["total"], 1)
         gap = 3 if seg > 6 else 0
-        out.append(f'''<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{color}" stroke-width="14" stroke-dasharray="0 {circ:.1f}"
+        dash = f"{max(seg - gap, 0):.1f} {circ:.1f}"
+        out.append(f'''<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{color}" stroke-width="14" stroke-dasharray="{dash}"
       stroke-dashoffset="{-acc:.1f}" transform="rotate(-90 {cx} {cy})">
-      <animate attributeName="stroke-dasharray" from="0 {circ:.1f}" to="{max(seg - gap, 0):.1f} {circ:.1f}" begin="{0.4 + i * 0.35:.2f}s" dur="0.6s" fill="freeze"/>
+      {grow("stroke-dasharray", dash, 0.4 + i * 0.35, 0.6, start=f"0 {circ:.1f}")}
     </circle>''')
         acc += seg
     out.append(f'''<text x="{cx}" y="{cy + 6}" text-anchor="middle" font-family="{SANS}" font-size="32" font-weight="700" fill="{t['fg']}">{lc['total']}</text>
@@ -225,7 +234,7 @@ def dashboard(t, data):
         out.append(f'''<text x="{bx}" y="{yy}" font-family="{MONO}" font-size="12.5" fill="{t['muted']}">{name}</text>
   <text x="{bx + bwid}" y="{yy}" text-anchor="end" font-family="{SANS}" font-size="15" font-weight="600" fill="{t['fg']}">{n}</text>
   <rect x="{bx}" y="{yy + 10}" width="{bwid}" height="8" rx="4" fill="{t['bg']}"/>
-  <rect x="{bx}" y="{yy + 10}" width="0" height="8" rx="4" fill="{color}"><animate attributeName="width" from="0" to="{w:.1f}" begin="{0.5 + i * 0.2:.2f}s" dur="0.7s" fill="freeze"/></rect>''')
+  <rect x="{bx}" y="{yy + 10}" width="{w:.1f}" height="8" rx="4" fill="{color}">{grow("width", f"{w:.1f}", 0.5 + i * 0.2, 0.7)}</rect>''')
     out.append(f'''<line x1="{x + 22}" y1="{by + bh - 62}" x2="{x + bw - 22}" y2="{by + bh - 62}" stroke="{t['line']}"/>
   <text x="{x + 22}" y="{by + bh - 30}" font-family="{MONO}" font-size="13" fill="{t['muted']}">{lc['active_days']} active days</text>
   <text x="{x + bw - 22}" y="{by + bh - 30}" text-anchor="end" font-family="{MONO}" font-size="13" fill="{t['accent']}">best streak {lc['best_streak']}d</text>''')
@@ -241,7 +250,7 @@ def dashboard(t, data):
     for i, pr in enumerate(shown):
         yy = by + 72 + i * 56
         title = pr["title"] if len(pr["title"]) <= 38 else pr["title"][:37].rstrip() + "…"
-        out.append(f'''<g opacity="0">{fade(0.5 + i * 0.18)}
+        out.append(f'''<g>{fade(0.5 + i * 0.18)}
     <circle cx="{lx}" cy="{yy}" r="6" fill="{t['card']}" stroke="{t['accent']}" stroke-width="2.5"/>
     <text x="{lx + 20}" y="{yy + 5}" font-family="{SANS}" font-size="14" fill="{t['fg']}">{esc(title)}</text>
     <text x="{lx + 20}" y="{yy + 25}" font-family="{MONO}" font-size="12" fill="{t['faint']}">#{pr['number']} · merged {fmt_day(pr['merged'])}</text>
@@ -264,10 +273,11 @@ def dashboard(t, data):
     for i, (name, v) in enumerate(rows):
         w = sw * v / lang_total
         color = LANG_COLORS.get(name, t["faint"])
-        out.append(f'<rect x="{sx + acc:.1f}" y="{sy}" width="0" height="12" fill="{color}"><animate attributeName="width" from="0" to="{max(w - 1.5, 0):.1f}" begin="{0.4 + i * 0.12:.2f}s" dur="0.4s" fill="freeze"/></rect>')
+        seg_w = f"{max(w - 1.5, 0):.1f}"
+        out.append(f'<rect x="{sx + acc:.1f}" y="{sy}" width="{seg_w}" height="12" fill="{color}">{grow("width", seg_w, 0.4 + i * 0.12, 0.4)}</rect>')
         acc += w
         yy = sy + 52 + i * 30
-        out.append(f'''<g opacity="0">{fade(0.6 + i * 0.1)}
+        out.append(f'''<g>{fade(0.6 + i * 0.1)}
     <circle cx="{sx + 6}" cy="{yy - 5}" r="5" fill="{color}"/>
     <text x="{sx + 20}" y="{yy}" font-family="{SANS}" font-size="14.5" fill="{t['fg']}">{esc(name)}</text>
     <text x="{sx + sw}" y="{yy}" text-anchor="end" font-family="{MONO}" font-size="13" fill="{t['muted']}">{100 * v / lang_total:.1f}%</text>
