@@ -1858,23 +1858,6 @@
    "title": "Refactor SmsReadPlatformServiceImpl to use Prepared Statements"
   }
  ],
- "languages": {
-  "Batchfile": 606,
-  "C": 10113,
-  "C++": 3261,
-  "CSS": 97936,
-  "Dart": 457585,
-  "Dockerfile": 1982,
-  "HTML": 428599,
-  "Java": 363976,
-  "JavaScript": 80062,
-  "Kotlin": 246697,
-  "MDX": 6206,
-  "Python": 538646,
-  "SCSS": 7958,
-  "Shell": 2487,
-  "TypeScript": 1717485
- },
  "leetcode": {
   "active_days": 35,
   "best_streak": 15,
@@ -1882,6 +1865,162 @@
   "hard": 4,
   "medium": 17,
   "total": 56
+ },
+ "repo_languages": {
+  "Bank-Account-Program": {
+   "Kotlin": 2092
+  },
+  "C-plus-plus-codes": {
+   "C++": 3261
+  },
+  "C-sample": {
+   "C": 10113
+  },
+  "Chat-Application": {
+   "CSS": 5903,
+   "HTML": 1286,
+   "JavaScript": 7654
+  },
+  "ChatApp": {
+   "Kotlin": 34099
+  },
+  "DSA-Preparetion": {
+   "Java": 28607
+  },
+  "DSA-Tracker": {
+   "CSS": 18369,
+   "Java": 21616,
+   "JavaScript": 7732,
+   "TypeScript": 480139
+  },
+  "DSA-practice": {
+   "Java": 54951
+  },
+  "Java": {
+   "Java": 55796
+  },
+  "Learn-DSA": {
+   "Java": 16921
+  },
+  "LocationApp": {
+   "Kotlin": 12024
+  },
+  "MyRecipeApp": {
+   "Kotlin": 13205
+  },
+  "MyShoppingList": {
+   "Kotlin": 24321
+  },
+  "MyWishListApp": {
+   "Kotlin": 24704
+  },
+  "Razorpay-Clone": {
+   "CSS": 58,
+   "HTML": 85753,
+   "JavaScript": 577
+  },
+  "Saifulhuq": {
+   "CSS": 2971,
+   "JavaScript": 559,
+   "MDX": 6206,
+   "TypeScript": 57436
+  },
+  "Saifulhuq01": {
+   "Python": 26294
+  },
+  "Saifulhuq01-Railway-Reservation-System": {
+   "Java": 14530
+  },
+  "SpringBoot": {},
+  "Web-2.0": {
+   "JavaScript": 1523
+  },
+  "azar-vibes": {
+   "CSS": 7709,
+   "HTML": 1757,
+   "JavaScript": 846,
+   "TypeScript": 204908
+  },
+  "basicsSpringBoot": {
+   "Java": 15220
+  },
+  "dlq-revive": {
+   "Dockerfile": 324,
+   "HTML": 14762,
+   "Java": 82572,
+   "SCSS": 7958,
+   "TypeScript": 23932
+  },
+  "evship": {},
+  "geeksclub": {
+   "CSS": 447,
+   "Dockerfile": 1658,
+   "HTML": 29962,
+   "Java": 55871,
+   "JavaScript": 178,
+   "Shell": 260,
+   "TypeScript": 25235
+  },
+  "gym_training": {
+   "HTML": 87067,
+   "JavaScript": 1347
+  },
+  "learnAngular": {},
+  "linkedin-apply-nav": {
+   "Batchfile": 606,
+   "CSS": 27608,
+   "HTML": 31293,
+   "JavaScript": 50261,
+   "Python": 538646,
+   "Shell": 2227
+  },
+  "loginSystem": {
+   "CSS": 4116,
+   "HTML": 4212,
+   "Java": 17892,
+   "JavaScript": 2197
+  },
+  "musicApp": {
+   "Kotlin": 30215
+  },
+  "portfolio_2.0": {
+   "CSS": 58,
+   "HTML": 19055,
+   "JavaScript": 3781,
+   "TypeScript": 272
+  },
+  "rd-biz-spark": {
+   "CSS": 5679,
+   "HTML": 7895,
+   "JavaScript": 846,
+   "TypeScript": 196765
+  },
+  "rdbizFoodproduct": {
+   "CSS": 6080,
+   "HTML": 4448,
+   "JavaScript": 846,
+   "TypeScript": 232070
+  },
+  "rdbizaisolution": {
+   "CSS": 11234,
+   "HTML": 8552,
+   "JavaScript": 846,
+   "TypeScript": 250183
+  },
+  "saifulhuq-dev": {
+   "CSS": 7704,
+   "HTML": 1151,
+   "JavaScript": 869,
+   "TypeScript": 246545
+  },
+  "unit-converter-App": {
+   "Kotlin": 10569
+  },
+  "veto": {
+   "Dart": 457585,
+   "HTML": 131406,
+   "Kotlin": 95468
+  }
  },
  "stars": {
   "Bank-Account-Program": 0,

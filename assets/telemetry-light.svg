@@ -475,49 +475,49 @@
 
   <rect x="800" y="404" width="368" height="344" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
   <text x="822" y="436" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" letter-spacing="1.4" fill="#59636e">LANGUAGES</text>
-  <text x="1146" y="436" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" fill="#4f46e5">by code size</text>
+  <text x="1146" y="436" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" fill="#4f46e5">excl. web &amp; app repos</text>
 <rect x="822" y="470" width="324" height="12" rx="6" fill="#ffffff"/>
-<rect x="822.0" y="470" width="0" height="12" fill="#3178c6"><animate attributeName="width" from="0" to="138.9" begin="0.40s" dur="0.4s" fill="freeze"/></rect>
+<rect x="822.0" y="470" width="0" height="12" fill="#b07219"><animate attributeName="width" from="0" to="117.8" begin="0.40s" dur="0.4s" fill="freeze"/></rect>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.60s" dur="0.5s" fill="freeze"/>
-    <circle cx="828" cy="517" r="5" fill="#3178c6"/>
-    <text x="842" y="522" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f2328">TypeScript</text>
-    <text x="1146" y="522" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636e">43.3%</text>
+    <circle cx="828" cy="517" r="5" fill="#b07219"/>
+    <text x="842" y="522" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f2328">Java</text>
+    <text x="1146" y="522" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636e">36.8%</text>
   </g>
-<rect x="962.4" y="470" width="0" height="12" fill="#3572A5"><animate attributeName="width" from="0" to="42.5" begin="0.52s" dur="0.4s" fill="freeze"/></rect>
+<rect x="941.3" y="470" width="0" height="12" fill="#e34c26"><animate attributeName="width" from="0" to="82.8" begin="0.52s" dur="0.4s" fill="freeze"/></rect>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.70s" dur="0.5s" fill="freeze"/>
-    <circle cx="828" cy="547" r="5" fill="#3572A5"/>
-    <text x="842" y="552" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f2328">Python</text>
-    <text x="1146" y="552" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636e">13.6%</text>
+    <circle cx="828" cy="547" r="5" fill="#e34c26"/>
+    <text x="842" y="552" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f2328">HTML</text>
+    <text x="1146" y="552" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636e">26.0%</text>
   </g>
-<rect x="1006.4" y="470" width="0" height="12" fill="#00B4AB"><animate attributeName="width" from="0" to="35.9" begin="0.64s" dur="0.4s" fill="freeze"/></rect>
+<rect x="1025.6" y="470" width="0" height="12" fill="#A97BFF"><animate attributeName="width" from="0" to="51.2" begin="0.64s" dur="0.4s" fill="freeze"/></rect>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.80s" dur="0.5s" fill="freeze"/>
-    <circle cx="828" cy="577" r="5" fill="#00B4AB"/>
-    <text x="842" y="582" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f2328">Dart</text>
-    <text x="1146" y="582" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636e">11.5%</text>
+    <circle cx="828" cy="577" r="5" fill="#A97BFF"/>
+    <text x="842" y="582" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f2328">Kotlin</text>
+    <text x="1146" y="582" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636e">16.3%</text>
   </g>
-<rect x="1043.8" y="470" width="0" height="12" fill="#e34c26"><animate attributeName="width" from="0" to="33.5" begin="0.76s" dur="0.4s" fill="freeze"/></rect>
+<rect x="1078.3" y="470" width="0" height="12" fill="#3178c6"><animate attributeName="width" from="0" to="35.7" begin="0.76s" dur="0.4s" fill="freeze"/></rect>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.90s" dur="0.5s" fill="freeze"/>
-    <circle cx="828" cy="607" r="5" fill="#e34c26"/>
-    <text x="842" y="612" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f2328">HTML</text>
-    <text x="1146" y="612" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636e">10.8%</text>
+    <circle cx="828" cy="607" r="5" fill="#3178c6"/>
+    <text x="842" y="612" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f2328">TypeScript</text>
+    <text x="1146" y="612" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636e">11.5%</text>
   </g>
-<rect x="1078.9" y="470" width="0" height="12" fill="#b07219"><animate attributeName="width" from="0" to="28.3" begin="0.88s" dur="0.4s" fill="freeze"/></rect>
+<rect x="1115.5" y="470" width="0" height="12" fill="#3572A5"><animate attributeName="width" from="0" to="7.7" begin="0.88s" dur="0.4s" fill="freeze"/></rect>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.00s" dur="0.5s" fill="freeze"/>
-    <circle cx="828" cy="637" r="5" fill="#b07219"/>
-    <text x="842" y="642" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f2328">Java</text>
-    <text x="1146" y="642" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636e">9.2%</text>
+    <circle cx="828" cy="637" r="5" fill="#3572A5"/>
+    <text x="842" y="642" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f2328">Python</text>
+    <text x="1146" y="642" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636e">2.8%</text>
   </g>
-<rect x="1108.6" y="470" width="0" height="12" fill="#A97BFF"><animate attributeName="width" from="0" to="18.7" begin="1.00s" dur="0.4s" fill="freeze"/></rect>
+<rect x="1124.7" y="470" width="0" height="12" fill="#f1e05a"><animate attributeName="width" from="0" to="4.7" begin="1.00s" dur="0.4s" fill="freeze"/></rect>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.10s" dur="0.5s" fill="freeze"/>
-    <circle cx="828" cy="667" r="5" fill="#A97BFF"/>
-    <text x="842" y="672" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f2328">Kotlin</text>
-    <text x="1146" y="672" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636e">6.2%</text>
+    <circle cx="828" cy="667" r="5" fill="#f1e05a"/>
+    <text x="842" y="672" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f2328">JavaScript</text>
+    <text x="1146" y="672" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636e">1.9%</text>
   </g>
-<rect x="1128.8" y="470" width="0" height="12" fill="#818b98"><animate attributeName="width" from="0" to="15.7" begin="1.12s" dur="0.4s" fill="freeze"/></rect>
+<rect x="1130.9" y="470" width="0" height="12" fill="#818b98"><animate attributeName="width" from="0" to="13.6" begin="1.12s" dur="0.4s" fill="freeze"/></rect>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.20s" dur="0.5s" fill="freeze"/>
     <circle cx="828" cy="697" r="5" fill="#818b98"/>
     <text x="842" y="702" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f2328">Other</text>
-    <text x="1146" y="702" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636e">5.3%</text>
+    <text x="1146" y="702" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636e">4.7%</text>
   </g>
 <rect x="822" y="470" width="324" height="12" rx="6" fill="none" stroke="#f6f8fa" stroke-width="2"/>
 </svg>
