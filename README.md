@@ -1,132 +1,55 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img alt="Mohammed Saifulhuq — Software Engineer. A Kafka message fails, lands in a dead-letter topic, is fixed and replayed exactly once." src="assets/banner-light.svg" width="100%">
+</picture>
 
-# Mohammed Saifulhuq
+<p align="center">
+  <a href="https://saifulhuq.vercel.app"><b>Portfolio</b></a> &nbsp;·&nbsp;
+  <a href="https://saifulhuq.vercel.app/projects/dlq-revive">DLQ Revive case study</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/saifulhuqs">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="https://leetcode.com/u/saiful_huq">LeetCode</a> &nbsp;·&nbsp;
+  <a href="mailto:mohammed.saifulhuq@gmail.com">Email</a>
+</p>
 
-**Backend Engineer · Distributed Systems · Open Source Builder**
+I'm a backend-focused software engineer at **First Insight**, building Java services for a retail analytics platform. Outside work I maintain **DLQ Revive** and contribute to **Apache Fineract**. The work I enjoy most is the part that keeps systems correct: idempotency, tenant isolation, bounded concurrency and honest failure states.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-saifulhuq.vercel.app-00d4aa?style=for-the-badge&logo=vercel&logoColor=white)](https://saifulhuq.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-saifulhuqs-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saifulhuqs)
-[![Gmail](https://img.shields.io/badge/Gmail-mohammed.saifulhuq-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohammed.saifulhuq@gmail.com)
+### Now
 
-</div>
+- **At work:** the survey insight engine, report sharing, and the tenant authorization rules around it · Java, Jakarta EE, MariaDB, Keycloak
+- **DLQ Revive:** an open-source tool for replaying Kafka dead letters safely next to production
+- **Apache Fineract:** 4 merged PRs, including Force Debit for savings accounts
 
----
+### Selected work
 
-```
-root@saifulhuq:~$ cat status.log
-```
+<a href="https://github.com/Saifulhuq01/dlq-revive"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dlq-revive-dark.svg"><img alt="DLQ Revive: inspect, fix and replay Kafka dead-letter messages without rebalancing live consumer groups." src="assets/dlq-revive-light.svg" width="49%"></picture></a>&nbsp;
+<a href="https://github.com/apache/fineract/pulls?q=is%3Apr+author%3ASaifulhuq01+is%3Amerged"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/fineract-dark.svg"><img alt="Apache Fineract: 4 merged PRs including Force Debit, SQL-injection hardening and an idempotency proposal." src="assets/fineract-light.svg" width="49%"></picture></a>
 
-```
-[ACTIVE]   Building DLQ Revive — open-source Kafka DLQ recovery engine
-[ACTIVE]   Contributing to Apache Fineract — core banking platform
-[OPEN]     Available for backend/distributed systems roles
-[STACK]    Java 17 · Spring Boot 3 · Apache Kafka · Angular 13+ · PostgreSQL
-```
+### Telemetry
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/telemetry-dark.svg">
+  <img alt="Live metrics: GitHub contributions over the last year, LeetCode problems solved by difficulty, merged Apache Fineract pull requests, and languages across my repositories." src="assets/telemetry-light.svg" width="100%">
+</picture>
+<p align="right"><sub>Live from GitHub and LeetCode · refreshed daily by <a href=".github/workflows/telemetry.yml">a GitHub Action</a></sub></p>
 
-### `🚀 current_build: DLQ Revive`
-
-> When Kafka consumers fail due to schema changes, messages pile up in Dead Letter Queues.  
-> Every team writes a throwaway script. No one built the tool. So I built it.
-
-```diff
-+ Browse    — Paginated DLQ inspection. Never loads full topic into memory.
-+ Transform — JSONata expression engine. No Groovy. No RCE surface.
-+ Preview   — Before/after schema diff before touching production.
-+ Redrive   — Idempotency guard at (topic, partition, offset) level.
-+             Pod-restart safe. Zero double-processing.
-+ Audit     — Every action logged to PostgreSQL with full traceability.
-```
-
-**Validated by 4 senior Kafka engineers on r/apachekafka. 63K+ LinkedIn reach. MIT licensed.**
-
-<div align="center">
-
-[![DLQ Revive](https://img.shields.io/badge/dlq--revive-View_Project-00d4aa?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Saifulhuq01/dlq-revive)
-[![License: MIT](https://img.shields.io/badge/License-MIT-00d4aa?style=for-the-badge)](https://github.com/Saifulhuq01/dlq-revive/blob/main/LICENSE)
-
-</div>
-
----
-
-### `🛡️ open_source.log — Apache Fineract`
-
-Production contributor to Apache Fineract — open-source core banking platform used for financial inclusion globally.
-
-```diff
-+ SECURITY  — Patched critical SQL Injection in lending engine. PR #5465 merged.
-+             100% green CI across PostgreSQL, MariaDB, MySQL.
-+ IDEMPOTENCY — Architecting system-wide transaction idempotency interceptor (FINERACT-2485).
-+              OncePerRequestFilter + PostgreSQL INSERT ... ON CONFLICT DO NOTHING.
-+              Eliminates exception-driven control flow on the critical execution path.
-+ CI/CD     — Resolved Liquibase migration failures for strict PostgreSQL type compliance.
-```
-
-<div align="center">
-
-[![Apache Fineract PRs](https://img.shields.io/badge/Merged_PRs-Apache_Fineract-FF4500?style=for-the-badge&logo=apache&logoColor=white)](https://github.com/apache/fineract/pulls?q=is%3Apr+author%3ASaifulhuq01+is%3Amerged)
-
-</div>
-
----
-
-### `🛠️ tech_stack.conf`
-
-| Domain | Technologies |
-| :--- | :--- |
-| **Backend** | ![Java](https://img.shields.io/badge/Java_17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white) |
-| **Messaging** | ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white) |
-| **Frontend** | ![Angular](https://img.shields.io/badge/Angular_13+-DD0031?style=for-the-badge&logo=angular&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![RxJS](https://img.shields.io/badge/RxJS-B7178C?style=for-the-badge&logo=reactivex&logoColor=white) |
-| **Database** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) |
-| **DevOps** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white) ![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white) |
-
----
-
-### `⚙️ core_principles.conf`
+### How I build
 
 ```yaml
-production_safety:
-  rule: "Code must survive pod restarts, concurrent requests, and schema drift."
-  example: "UNIQUE(topic, partition, offset) — not application-level checks."
-
-security_by_design:
-  rule: "Never allow Turing-complete user input on the server."
-  example: "JSONata over Groovy. Declarative over executable."
-
-kafka_consumer_hygiene:
-  rule: "Read-only consumers must never join consumer groups."
-  example: "assign()+seek() — not subscribe(). Never commitSync() in view mode."
-
-open_source_first:
-  rule: "Build in public. Validate before building. Ship before perfecting."
+correctness:    "survive restarts, retries, races"     # UNIQUE(topic, partition, offset)
+safety:         "no Turing-complete input on servers"  # JSONata, never Groovy
+kafka_hygiene:  "read-only consumers never join"       # assign() + seek(), no commits
+failure_states: "never collapse distinct failures"     # wrong tenant ≠ deleted ≠ denied
 ```
 
----
+### Stack
 
-### `📊 system_metrics`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <img alt="Backend: Java 17, Spring Boot 3, Jakarta EE, JPA/Hibernate, Apache Kafka. Data: PostgreSQL, MariaDB, MySQL, Liquibase. Frontend: Angular, TypeScript, RxJS, Electron. Tooling: JUnit 5, Mockito, EmbeddedKafka, Docker, GitHub Actions, Keycloak." src="assets/stack-light.svg" width="100%">
+</picture>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Saifulhuq01&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=00d4aa&icon_color=00d4aa&text_color=c9d1d9" height="170" alt="stats" />
-  &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Saifulhuq01&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=00d4aa&text_color=c9d1d9" height="170" alt="languages" />
-</div>
+### Writing
 
-<br/>
+- [Replaying Kafka dead letters without breaking production](https://saifulhuq.vercel.app/projects/dlq-revive): the design decisions and trade-offs behind DLQ Revive
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Saifulhuq01&theme=radical&hide_border=true&background=0d1117&ring=00d4aa&fire=00d4aa&currStreakLabel=00d4aa" height="170" alt="streak" />
-</div>
-
----
-
-<div align="center">
-
-```
-root@saifulhuq:~$ uptime
- status: BUILDING_IN_PUBLIC — week: 2 — product: dlq-revive — target: launch
-```
-
-<sub>⚡ Production-grade code or nothing ⚡</sub>
-
-</div>
+<p align="center"><sub>Open to backend and distributed-systems conversations. Email is the fastest way to reach me.</sub></p>
