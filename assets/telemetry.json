@@ -1844,6 +1844,11 @@
    "count": 0,
    "date": "2026-11-12",
    "level": 0
+  },
+  {
+   "count": 5,
+   "date": "2026-11-13",
+   "level": 3
   }
  ],
  "fineract": [
@@ -1975,6 +1980,9 @@
    "HTML": 87067,
    "JavaScript": 1347
   },
+  "kharcha": {
+   "Kotlin": 71742
+  },
   "learnAngular": {},
   "linkedin-apply-nav": {
    "Batchfile": 606,
@@ -2063,6 +2071,7 @@
   "geeksclub": 0,
   "gym_training": 0,
   "kafka": 0,
+  "kharcha": 0,
   "learnAngular": 0,
   "linkedin-apply-nav": 0,
   "loginSystem": 0,
@@ -2078,5 +2087,5 @@
   "veto": 0,
   "web-app": 0
  },
- "updated": "Nov 12, 2026"
+ "updated": "Nov 13, 2026"
 }
