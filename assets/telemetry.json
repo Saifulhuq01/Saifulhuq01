@@ -1846,9 +1846,14 @@
    "level": 0
   },
   {
-   "count": 5,
+   "count": 8,
    "date": "2026-11-13",
-   "level": 3
+   "level": 4
+  },
+  {
+   "count": 0,
+   "date": "2026-11-14",
+   "level": 0
   }
  ],
  "fineract": [
@@ -1967,6 +1972,10 @@
    "TypeScript": 23932
   },
   "evship": {},
+  "gameboost": {
+   "AIDL": 248,
+   "Kotlin": 37626
+  },
   "geeksclub": {
    "CSS": 447,
    "Dockerfile": 1658,
@@ -2068,6 +2077,7 @@
   "dlq-revive": 5,
   "evship": 0,
   "fineract": 0,
+  "gameboost": 0,
   "geeksclub": 0,
   "gym_training": 0,
   "kafka": 0,
@@ -2087,5 +2097,5 @@
   "veto": 0,
   "web-app": 0
  },
- "updated": "Nov 13, 2026"
+ "updated": "Nov 14, 2026"
 }

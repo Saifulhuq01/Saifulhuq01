@@ -3,11 +3,11 @@
 
   <circle cx="44" cy="40" r="5" fill="#1a7f37"><animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/></circle>
   <text x="60" y="45" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="15" fill="#1f2328">saifulhuq01 · telemetry</text>
-  <text x="1160" y="45" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#818b98">updated Nov 13, 2026 · refreshed daily</text>
+  <text x="1160" y="45" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#818b98">updated Nov 14, 2026 · refreshed daily</text>
 
   <rect x="32" y="70" width="1136" height="318" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
   <text x="54" y="102" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" letter-spacing="1.4" fill="#59636e">CONTRIBUTIONS · LAST 12 MONTHS</text>
-  <text x="1146" y="102" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" fill="#4f46e5">276 total</text>
+  <text x="1146" y="102" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" fill="#4f46e5">279 total</text>
 <text x="98" y="177" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#818b98">Mon</text>
 <text x="98" y="215" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#818b98">Wed</text>
 <text x="98" y="253" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#818b98">Fri</text>
@@ -393,10 +393,11 @@
 <rect x="1098" y="184" width="15" height="15" rx="3.5" fill="#c7d2fe"><title>1 on Nov 10, 2026</title><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.787;1" dur="1.64s" fill="freeze"/></rect>
 <rect x="1098" y="203" width="15" height="15" rx="3.5" fill="#ebedf0"><title>0 on Nov 11, 2026</title><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.787;1" dur="1.64s" fill="freeze"/></rect>
 <rect x="1098" y="222" width="15" height="15" rx="3.5" fill="#ebedf0"><title>0 on Nov 12, 2026</title><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.787;1" dur="1.64s" fill="freeze"/></rect>
-<rect x="1098" y="241" width="15" height="15" rx="3.5" fill="#6366f1"><title>5 on Nov 13, 2026</title><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.787;1" dur="1.64s" fill="freeze"/></rect>
+<rect x="1098" y="241" width="15" height="15" rx="3.5" fill="#4338ca"><title>8 on Nov 13, 2026</title><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.787;1" dur="1.64s" fill="freeze"/></rect>
+<rect x="1098" y="260" width="15" height="15" rx="3.5" fill="#ebedf0"><title>0 on Nov 14, 2026</title><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.787;1" dur="1.64s" fill="freeze"/></rect>
 <g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.722;1" dur="1.80s" fill="freeze"/>
     <rect x="54" y="314" width="262" height="56" rx="8" fill="#ffffff" stroke="#d0d7de"/>
-    <text x="70" y="349" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2328">276</text>
+    <text x="70" y="349" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2328">279</text>
     <text x="300" y="348" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#59636e">contributions</text>
   </g>
 <g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.737;1" dur="1.90s" fill="freeze"/>
@@ -480,47 +481,47 @@
   <text x="822" y="436" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" letter-spacing="1.4" fill="#59636e">LANGUAGES</text>
   <text x="1146" y="436" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" fill="#4f46e5">excl. web &amp; app repos</text>
 <rect x="822" y="470" width="324" height="12" rx="6" fill="#ffffff"/>
-<rect x="822.0" y="470" width="109.2" height="12" fill="#b07219"><animate attributeName="width" values="0;0;109.2" keyTimes="0;0.500;1" dur="0.80s" fill="freeze"/></rect>
+<rect x="822.0" y="470" width="105.2" height="12" fill="#b07219"><animate attributeName="width" values="0;0;105.2" keyTimes="0;0.500;1" dur="0.80s" fill="freeze"/></rect>
 <g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.545;1" dur="1.10s" fill="freeze"/>
     <circle cx="828" cy="517" r="5" fill="#b07219"/>
     <text x="842" y="522" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f2328">Java</text>
-    <text x="1146" y="522" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636e">34.2%</text>
+    <text x="1146" y="522" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636e">32.9%</text>
   </g>
-<rect x="932.7" y="470" width="76.8" height="12" fill="#e34c26"><animate attributeName="width" values="0;0;76.8" keyTimes="0;0.565;1" dur="0.92s" fill="freeze"/></rect>
+<rect x="928.7" y="470" width="79.7" height="12" fill="#A97BFF"><animate attributeName="width" values="0;0;79.7" keyTimes="0;0.565;1" dur="0.92s" fill="freeze"/></rect>
 <g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.583;1" dur="1.20s" fill="freeze"/>
-    <circle cx="828" cy="547" r="5" fill="#e34c26"/>
-    <text x="842" y="552" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f2328">HTML</text>
-    <text x="1146" y="552" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636e">24.2%</text>
+    <circle cx="828" cy="547" r="5" fill="#A97BFF"/>
+    <text x="842" y="552" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f2328">Kotlin</text>
+    <text x="1146" y="552" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636e">25.1%</text>
   </g>
-<rect x="1011.0" y="470" width="70.6" height="12" fill="#A97BFF"><animate attributeName="width" values="0;0;70.6" keyTimes="0;0.615;1" dur="1.04s" fill="freeze"/></rect>
+<rect x="1009.9" y="470" width="73.9" height="12" fill="#e34c26"><animate attributeName="width" values="0;0;73.9" keyTimes="0;0.615;1" dur="1.04s" fill="freeze"/></rect>
 <g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.615;1" dur="1.30s" fill="freeze"/>
-    <circle cx="828" cy="577" r="5" fill="#A97BFF"/>
-    <text x="842" y="582" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f2328">Kotlin</text>
-    <text x="1146" y="582" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636e">22.3%</text>
+    <circle cx="828" cy="577" r="5" fill="#e34c26"/>
+    <text x="842" y="582" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f2328">HTML</text>
+    <text x="1146" y="582" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636e">23.3%</text>
   </g>
-<rect x="1083.1" y="470" width="33.1" height="12" fill="#3178c6"><animate attributeName="width" values="0;0;33.1" keyTimes="0;0.655;1" dur="1.16s" fill="freeze"/></rect>
+<rect x="1085.3" y="470" width="31.8" height="12" fill="#3178c6"><animate attributeName="width" values="0;0;31.8" keyTimes="0;0.655;1" dur="1.16s" fill="freeze"/></rect>
 <g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.643;1" dur="1.40s" fill="freeze"/>
     <circle cx="828" cy="607" r="5" fill="#3178c6"/>
     <text x="842" y="612" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f2328">TypeScript</text>
-    <text x="1146" y="612" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636e">10.7%</text>
+    <text x="1146" y="612" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636e">10.3%</text>
   </g>
-<rect x="1117.7" y="470" width="7.1" height="12" fill="#3572A5"><animate attributeName="width" values="0;0;7.1" keyTimes="0;0.688;1" dur="1.28s" fill="freeze"/></rect>
+<rect x="1118.6" y="470" width="6.8" height="12" fill="#3572A5"><animate attributeName="width" values="0;0;6.8" keyTimes="0;0.688;1" dur="1.28s" fill="freeze"/></rect>
 <g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.667;1" dur="1.50s" fill="freeze"/>
     <circle cx="828" cy="637" r="5" fill="#3572A5"/>
     <text x="842" y="642" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f2328">Python</text>
     <text x="1146" y="642" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636e">2.6%</text>
   </g>
-<rect x="1126.2" y="470" width="4.3" height="12" fill="#f1e05a"><animate attributeName="width" values="0;0;4.3" keyTimes="0;0.714;1" dur="1.40s" fill="freeze"/></rect>
+<rect x="1126.9" y="470" width="4.1" height="12" fill="#f1e05a"><animate attributeName="width" values="0;0;4.1" keyTimes="0;0.714;1" dur="1.40s" fill="freeze"/></rect>
 <g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.688;1" dur="1.60s" fill="freeze"/>
     <circle cx="828" cy="667" r="5" fill="#f1e05a"/>
     <text x="842" y="672" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f2328">JavaScript</text>
-    <text x="1146" y="672" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636e">1.8%</text>
+    <text x="1146" y="672" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636e">1.7%</text>
   </g>
-<rect x="1132.0" y="470" width="12.5" height="12" fill="#818b98"><animate attributeName="width" values="0;0;12.5" keyTimes="0;0.737;1" dur="1.52s" fill="freeze"/></rect>
+<rect x="1132.4" y="470" width="12.1" height="12" fill="#818b98"><animate attributeName="width" values="0;0;12.1" keyTimes="0;0.737;1" dur="1.52s" fill="freeze"/></rect>
 <g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.706;1" dur="1.70s" fill="freeze"/>
     <circle cx="828" cy="697" r="5" fill="#818b98"/>
     <text x="842" y="702" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f2328">Other</text>
-    <text x="1146" y="702" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636e">4.3%</text>
+    <text x="1146" y="702" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#59636e">4.2%</text>
   </g>
 <rect x="822" y="470" width="324" height="12" rx="6" fill="none" stroke="#f6f8fa" stroke-width="2"/>
 </svg>
