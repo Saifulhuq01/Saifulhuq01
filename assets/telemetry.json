@@ -333,7 +333,7 @@
   {
    "count": 5,
    "date": "2026-01-28",
-   "level": 3
+   "level": 2
   },
   {
    "count": 1,
@@ -343,7 +343,7 @@
   {
    "count": 7,
    "date": "2026-01-30",
-   "level": 4
+   "level": 3
   },
   {
    "count": 0,
@@ -363,7 +363,7 @@
   {
    "count": 7,
    "date": "2026-02-03",
-   "level": 4
+   "level": 3
   },
   {
    "count": 0,
@@ -573,7 +573,7 @@
   {
    "count": 5,
    "date": "2026-03-17",
-   "level": 3
+   "level": 2
   },
   {
    "count": 0,
@@ -743,7 +743,7 @@
   {
    "count": 7,
    "date": "2026-04-20",
-   "level": 4
+   "level": 3
   },
   {
    "count": 1,
@@ -753,7 +753,7 @@
   {
    "count": 5,
    "date": "2026-04-22",
-   "level": 3
+   "level": 2
   },
   {
    "count": 6,
@@ -778,7 +778,7 @@
   {
    "count": 7,
    "date": "2026-04-27",
-   "level": 4
+   "level": 3
   },
   {
    "count": 12,
@@ -793,7 +793,7 @@
   {
    "count": 7,
    "date": "2026-04-30",
-   "level": 4
+   "level": 3
   },
   {
    "count": 6,
@@ -998,7 +998,7 @@
   {
    "count": 5,
    "date": "2026-06-10",
-   "level": 3
+   "level": 2
   },
   {
    "count": 1,
@@ -1846,9 +1846,14 @@
    "level": 0
   },
   {
-   "count": 0,
+   "count": 10,
    "date": "2026-11-27",
-   "level": 0
+   "level": 4
+  },
+  {
+   "count": 8,
+   "date": "2026-11-28",
+   "level": 4
   }
  ],
  "fineract": [
@@ -1956,6 +1961,10 @@
    "JavaScript": 846,
    "TypeScript": 204908
   },
+  "bandmate": {
+   "JavaScript": 2006,
+   "Kotlin": 211055
+  },
   "basicsSpringBoot": {
    "Java": 15220
   },
@@ -2039,9 +2048,9 @@
    "Kotlin": 10569
   },
   "veto": {
-   "Dart": 457585,
-   "HTML": 131406,
-   "Kotlin": 95468
+   "Dart": 515921,
+   "Kotlin": 117091,
+   "Python": 29202
   }
  },
  "stars": {
@@ -2068,6 +2077,7 @@
   "Udemy-Java-Programming-master-Class-for-Software-Developers": 0,
   "Web-2.0": 0,
   "azar-vibes": 0,
+  "bandmate": 0,
   "basicsSpringBoot": 0,
   "dlq-revive": 5,
   "evship": 0,
@@ -2092,5 +2102,5 @@
   "veto": 0,
   "web-app": 0
  },
- "updated": "Nov 27, 2026"
+ "updated": "Nov 28, 2026"
 }
